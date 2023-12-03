@@ -57,10 +57,10 @@ const Navbar = () => {
           />
         </svg>
       </nav>
-      <div className={styles.headerText}>
+      <div id="user-detail-intro" className={styles.headerText}>
         <p>MERN stack web developer</p>
         <h1>
-          Hi, I'm <span>Thilak Singh</span> <br /> from Hyderabad
+          Hi, I'm <span  id="user-detail-name">Thilak Singh Thakur</span> <br /> from Hyderabad
         </h1>
       </div>
     </div>
