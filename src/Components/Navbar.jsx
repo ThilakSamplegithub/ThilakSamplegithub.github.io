@@ -1,0 +1,70 @@
+import React, { useEffect, useState } from "react";
+import styles from "../Styles/navbar.module.css";
+import logo from "../Images/logo.png";
+// import backgroundImage from "../Images/background.png";
+const Navbar = () => {
+  const[ismenuOpen,setIsmenuOpen]=useState(false)
+  useEffect(()=>{
+   const sidemenu= document.getElementsByClassName("sidemenu")
+   console.log(sidemenu[0]?.style.right)
+   ismenuOpen?sidemenu[0].style.right="0px":sidemenu[0].style.right="-200px"
+  },[ismenuOpen])
+  return (
+    <div id="nav-menu" className="navheader header" style={{margin:'20px 0px'}}>
+      <nav >
+        <img src={logo} alt="error" className={styles.logo} />
+        <ul className={"sidemenu"}>
+          <li>
+            <a className="nav-link home" href="#header">Home</a>
+          </li>
+          <li>
+            <a className="nav-link about" href="#about">About</a>
+          </li>
+          <li>
+            <a className="nav-link skills" href="#services">Skills</a>
+          </li>
+          <li>
+            <a className="nav-link projects" href="#projects">Projects</a>
+          </li>
+          <li>
+            <a className="nav-link contact" href="#contact">Contact</a>
+          </li>
+          <svg
+          className={styles.fas}
+          onClick={()=>setIsmenuOpen(false)}
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+          >
+            <path
+              fill="currentColor"
+              d="M16 2C8.2 2 2 8.2 2 16s6.2 14 14 14s14-6.2 14-14S23.8 2 16 2zm5.4 21L16 17.6L10.6 23L9 21.4l5.4-5.4L9 10.6L10.6 9l5.4 5.4L21.4 9l1.6 1.6l-5.4 5.4l5.4 5.4l-1.6 1.6z"
+            />
+          </svg>
+        </ul>
+        <svg
+        className={styles.fas}
+        onClick={()=>setIsmenuOpen(true)}
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"
+          />
+        </svg>
+      </nav>
+      <div className={styles.headerText}>
+        <p>MERN stack web developer</p>
+        <h1>
+          Hi, I'm <span>Thilak Singh</span> <br /> from Hyderabad
+        </h1>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;
