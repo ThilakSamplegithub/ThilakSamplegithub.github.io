@@ -125,6 +125,7 @@ const Contact = () => {
               </a> */}
             </div>
             <a
+            id="resume-link-1"
               href={resume}
               download
               className={`${styles.btn} ${styles.btn2} nav-link resume`}

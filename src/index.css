@@ -6,7 +6,6 @@
 }
 body{
   background-color:#080808;
-  /* border:1px solid red; */
   color:#fff;
 }
 #root{
@@ -17,11 +16,12 @@ html{
   scroll-behavior:smooth ;
 }
 .header{
-  background-image: url(Images/background.png);
+  background-image: url(Images/background2.png);
   width:100%;
   height: 100vh;
   background-size: cover;
   background-position: center;
+  /* border:1px solid red; */
   background-color: transparent;
 }
 @media only screen and (max-width:600px){

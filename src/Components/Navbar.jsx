@@ -21,10 +21,10 @@ const Navbar = () => {
             <a className="nav-link about" href="#about">About</a>
           </li>
           <li>
-            <a className="nav-link skills" href="#services">Skills</a>
+            <a  href="#services">Skills</a>
           </li>
           <li>
-            <a className="nav-link projects" href="#projects">Projects</a>
+            <a className="nav-link projects" href="#portfolio">Projects</a>
           </li>
           <li>
             <a className="nav-link contact" href="#contact">Contact</a>
@@ -57,10 +57,10 @@ const Navbar = () => {
           />
         </svg>
       </nav>
-      <div id="user-detail-intro" className={styles.headerText}>
+      <div className={styles.headerText}>
         <p>MERN stack web developer</p>
         <h1>
-          Hi, I'm <span  id="user-detail-name">Thilak Singh Thakur</span> <br /> from Hyderabad
+          Hi, I'm <span>Thilak Singh</span> <br /> from Hyderabad
         </h1>
       </div>
     </div>
