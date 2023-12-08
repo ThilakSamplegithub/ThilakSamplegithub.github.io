@@ -1,67 +1,7 @@
 import React from "react";
-import styles from "../Styles/services.module.css";
-const Skills = () => {
-  const skillsData = [
-    {
-      icon: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
-      name: "Javascript",
-      category: "frontend",
-    },
-    {
-      icon: "https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png",
-      name: "HTML",
-      category: "frontend",
-    },
-    {
-      icon: "https://somesh9870.github.io/static/media/CSS.9f33c557b92e4e2e1cc8.png",
-      name: "CSS",
-      category: "frontend",
-    },
-    // {
-    //   icon: "https://alih6051.github.io/static/media/tailwind.e7b4a92d5aefbddd6f0651c024144be2.svg",
-    //   name: "Tailwind",
-    //   category: "frontend",
-    // },
-    {
-      icon: "https://somesh9870.github.io/static/media/React.20adfb35ae6a6e5817bf.png",
-      name: "React",
-      category: "frontend",
-    },
-    // {
-    //   icon: "https://cdn.cdnlogo.com/logos/n/80/next-js.svg",
-    //   name: "Next JS",
-    //   category: "frontend",
-    // },
-    {
-      icon: "https://somesh9870.github.io/static/media/Redux.5de70b7bc0d2556a0958.png",
-      name: "Redux",
-      category: "frontend",
-    },
-    {
-      icon: "https://alih6051.github.io/static/media/chakra.15320604467d004df871.png",
-      name: "Chakra UI",
-      category: "frontend",
-    },
-    {
-      icon: "https://somesh9870.github.io/static/media/Node.js.478c590a266bed215577.png",
-      name: "Node JS",
-      category: "backend",
-    },
-    {
-      icon: "https://somesh9870.github.io/static/media/Express.39a0f4c3d981885c64f8.png",
-      name: "Express",
-      category: "backend",
-    },
-    {
-      icon: "https://alih6051.github.io/static/media/mongodb.6835c61a518a732eb8318d43dfe8f700.svg",
-      name: "MongoDB",
-      category: "backend",
-    },
-    {
-      icon: "https://somesh9870.github.io/static/media/mongoose.998152e4bc5fdd366c2c.png",
-      name: "Mongoose",
-      category: "backend",
-    },
+import styles from "../Styles/tools.module.css";
+const Tools = () => {
+  const tools = [
     {
       icon: "data:image/png;base64,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",
       name: "Git",
@@ -88,64 +28,36 @@ const Skills = () => {
       category: "tool",
     },
   ];
-  const frontEnd=skillsData.filter(({category})=>category==="frontend")
-  const backEnd=skillsData.filter(({category})=>category==="backend")
   return (
-    <div id={"skills"}>
-      <div className={styles.container}>
-        <h1 className="sub_title">Technical Skills</h1>
-        <div className={`${styles.services_list}`}>
-          <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="50"
-              height="50"
-              viewBox="0 0 14 14"
-            >
-              <g
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+    <div>
+      <div id={"skills"}>
+        <div className={styles.container}>
+          <h1 className="sub_title">Tools</h1>
+          <div className={`${styles.services_list}`}>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
               >
-                <rect width="10" height="10" x="3.5" y=".5" rx="1" />
-                <path d="M.5 12.5a1 1 0 0 0 1 1m3 0H6m3 0h1.5M.5 8v1.5m0-6V5" />
-              </g>
-            </svg>
-            <h1>Front End</h1>
-            <div  style={{display:"flex",flexWrap:"wrap"}}>{frontEnd.map(({icon,name})=>{
-              return(
-                <div >
-                  <img src={icon} alt={name} width={100}/>
-                  <p>{name}</p>
-                </div>
-              )
-            })}</div>
-          </div>
-          <div>
-          <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="50"
-              height="50"
-              viewBox="0 0 14 14"
-            >
-              <path
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M13.5 7.5v5a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1v-11a1 1 0 0 1 1-1h4v7Zm-13-4h13m-3.5 4v-7"
-              />
-            </svg>
-            <h1>Back-End</h1>
-            <div style={{display:"flex",flexWrap:"wrap"}}>{backEnd.map(({icon,name})=>{
-              return(
-                <div >
-                  <img src={icon} alt={name} width={100}/>
-                  <p>{name}</p>
-                </div>
-              )
-            })}</div>
+                <path
+                  fill="currentColor"
+                  d="M16.68 9.77a4.543 4.543 0 0 1-4.95.99l-5.41 6.52c-.99.99-2.59.99-3.58 0s-.99-2.59 0-3.57l6.52-5.42c-.68-1.65-.35-3.61.99-4.95c1.28-1.28 3.12-1.62 4.72-1.06l-2.89 2.89l2.82 2.82l2.86-2.87c.53 1.58.18 3.39-1.08 4.65zM3.81 16.21c.4.39 1.04.39 1.43 0c.4-.4.4-1.04 0-1.43c-.39-.4-1.03-.4-1.43 0a1.02 1.02 0 0 0 0 1.43z"
+                />
+              </svg>
+              <h1>Tools</h1>
+              <div style={{ display: "flex", flexWrap: "wrap" }}>
+                {tools.map(({ icon, name }) => {
+                  return (
+                    <div>
+                      <img src={icon} alt={name} width={100} />
+                      <p>{name}</p>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -153,4 +65,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Tools;

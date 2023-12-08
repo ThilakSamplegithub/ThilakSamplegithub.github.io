@@ -1,16 +1,15 @@
-import React, { useEffect, useState } from "react";
-import styles from "../Styles/navbar.module.css";
-import logo from "../Images/logo.png";
-// import backgroundImage from "../Images/background.png";
+import React, { useState,useEffect } from 'react'
+import styles from "../Styles/navbar.module.css"
+import logo from "../Images/logo.png"
 const Navbar = () => {
-  const[ismenuOpen,setIsmenuOpen]=useState(false)
+    const[ismenuOpen,setIsmenuOpen]=useState(false)
   useEffect(()=>{
    const sidemenu= document.getElementsByClassName("sidemenu")
    console.log(sidemenu[0]?.style.right)
    ismenuOpen?sidemenu[0].style.right="0px":sidemenu[0].style.right="-200px"
   },[ismenuOpen])
   return (
-    <div id="nav-menu" className="navheader header" style={{margin:'20px 0px'}}>
+    <div style={{margin:"-0.7% 0px",position:"fixed",border:'1px solid #ff004f',width:'80%',zIndex:5,backgroundColor:'#080808'}}>
       <nav >
         <img src={logo} alt="error" className={styles.logo} />
         <ul className={"sidemenu"}>
@@ -57,14 +56,8 @@ const Navbar = () => {
           />
         </svg>
       </nav>
-      <div className={styles.headerText}>
-        <p>MERN stack web developer</p>
-        <h1>
-          Hi, I'm <span>Thilak Singh</span><br /><span>Thakur</span><br/> from Hyderabad
-        </h1>
-      </div>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

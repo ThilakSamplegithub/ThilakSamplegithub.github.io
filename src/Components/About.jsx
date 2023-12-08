@@ -4,10 +4,10 @@ import user from "../Images/user.png";
 const About = () => {
   const [display, setDisplay] = useState(false);
   const openTab = (booleanValue) => {
-    setDisplay(booleanValue)
+    setDisplay(booleanValue);
   };
   return (
-    <div id={"about"}className="about section">
+    <div id={"about"} className="about section">
       <div className={styles.container}>
         <div className={styles.row}>
           <div className={styles.about_col1}>
@@ -16,27 +16,27 @@ const About = () => {
           <div className={styles.about_col2}>
             <h1 className={styles.subTitle}>about me</h1>
             <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English. Many desktop
-              publishing packages and web page editors now use Lorem Ipsum as
-              their default model text, and a search for 'lorem ipsum' will
-              uncover many web sites still in their infancy. Various versions
-              have evolved over the years, sometimes by accident, sometimes on
-              purpose (injected humour and the like).
+              A Results-driven MERN stack developer with a passion for building
+              engaging and scalable web applications. As a dynamic problem
+              solver, brings creativity and a user-centric approach to every
+              project. With expertise in both front-end and back-end
+              technologies, thrives in collaborative environments and
+              continuously seek opportunities to expand  skill set.
             </p>
             <div className={styles.tab_titles}>
               <p
-                className={`${styles.tab_links} ${display===false&&styles.active_link}`}
+                className={`${styles.tab_links} ${
+                  display === false && styles.active_link
+                }`}
                 name="skills"
                 onClick={(e) => openTab(false)}
               >
                 Skills
               </p>
               <p
-                className={`${styles.tab_links} ${display&&styles.active_link}`}
+                className={`${styles.tab_links} ${
+                  display && styles.active_link
+                }`}
                 name="education"
                 onClick={(e) => openTab(true)}
               >
@@ -44,7 +44,9 @@ const About = () => {
               </p>
             </div>
             <div
-              className={`${styles.tab_contents} ${display===false&&styles.active_tab} ${styles.skills}`}
+              className={`${styles.tab_contents} ${
+                display === false && styles.active_tab
+              } ${styles.skills}`}
             >
               <ul>
                 <li>
@@ -64,7 +66,11 @@ const About = () => {
                 </li>
               </ul>
             </div>
-            <div className={`${styles.tab_contents} ${display&&styles.active_tab} ${styles.education}`}>
+            <div
+              className={`${styles.tab_contents} ${
+                display && styles.active_tab
+              } ${styles.education}`}
+            >
               <ul>
                 <li>
                   <span>2023</span>
