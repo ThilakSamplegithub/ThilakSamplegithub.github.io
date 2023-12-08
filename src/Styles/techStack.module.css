@@ -1,0 +1,10 @@
+.tech button{
+display:inline-block;
+background-color:#ff004f;
+color:white;
+border-radius: 10px;
+margin:5px 5px;
+padding:10px;
+border:1px solid #ff004f;
+cursor:pointer
+}

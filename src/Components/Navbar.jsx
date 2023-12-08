@@ -60,7 +60,7 @@ const Navbar = () => {
       <div className={styles.headerText}>
         <p>MERN stack web developer</p>
         <h1>
-          Hi, I'm <span>Thilak Singh</span> <br /> from Hyderabad
+          Hi, I'm <span>Thilak Singh</span><br /><span>Thakur</span><br/> from Hyderabad
         </h1>
       </div>
     </div>

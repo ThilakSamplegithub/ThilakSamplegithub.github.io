@@ -16,7 +16,7 @@ html{
   scroll-behavior:smooth ;
 }
 .header{
-  background-image: url(Images/background2.png);
+  background-image: url(Images/background3.png);
   width:100%;
   height: 100vh;
   background-size: cover;
@@ -26,6 +26,6 @@ html{
 }
 @media only screen and (max-width:600px){
   .navheader{
-    background-image: url(Images/phone-background.png);
+    background-image: url(Images/phone-background2.png);
   }
 }
