@@ -64,7 +64,11 @@ const Contact = () => {
               8186942194
             </p>
             <div className={styles.social_icons}>
-              <a target="_blank" id="contact-github" href="https://github.com/ThilakSamplegithub">
+              <a
+                target="_blank"
+                id="contact-github"
+                href="https://github.com/ThilakSamplegithub"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -77,7 +81,11 @@ const Contact = () => {
                   />
                 </svg>
               </a>
-              <a target="_blank" id="contact-linkedin" href="https://www.linkedin.com/in/thilak-singh-thakur-b1882b23a/">
+              <a
+                target="_blank"
+                id="contact-linkedin"
+                href="https://www.linkedin.com/in/thilak-singh-thakur-b1882b23a/"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="28"
@@ -94,22 +102,30 @@ const Contact = () => {
                   />
                 </svg>
               </a>
-              
             </div>
-            <a
-            id="resume-link-1"
+            {/* <a
+              id="resume-link-1"
               href={resume}
               download
               className={`${styles.btn} ${styles.btn2} nav-link resume`}
             >
-             <button 
-                      style={{fontSize:"18px",backgroundColor:"rgb(255,0,79)",border:'1px solid rgb(255,0,79)',color:"white"}}
-                      id="resume-button-2" 
-                      onClick={()=>window.open("https://drive.google.com/file/d/1wfTGepeeOCRN6xcAGUbzGlWHZJoTjLO-/view?usp=sharing")} 
-                        >
-                      Resume
-                    </button>
-            </a>
+              <button
+                style={{
+                  fontSize: "18px",
+                  backgroundColor: "rgb(255,0,79)",
+                  border: "1px solid rgb(255,0,79)",
+                  color: "white",
+                }}
+                id="resume-button-2"
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/1wfTGepeeOCRN6xcAGUbzGlWHZJoTjLO-/view?usp=sharing"
+                  )
+                }
+              >
+                Resume
+              </button>
+            </a> */}
           </div>
           <div className={styles.contact_right}>
             <form ref={form} onSubmit={sendEmail}>

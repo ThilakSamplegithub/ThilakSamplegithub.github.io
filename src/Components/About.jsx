@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "../Styles/about.module.css";
 import user from "../Images/user.png";
+import resume from "../Images/Thilak-Singh-Resume.pdf"
 const About = () => {
   const [display, setDisplay] = useState(false);
   const openTab = (booleanValue) => {
@@ -59,11 +60,6 @@ const About = () => {
                   <br />
                   Web app Development
                 </li>
-                {/* <li>
-                  <span>App Development</span>
-                  <br />
-                  Building Android/iOS apps
-                </li> */}
               </ul>
             </div>
             <div
@@ -86,6 +82,29 @@ const About = () => {
                 {/* <li><span></span><br/>Building Android/iOS apps</li> */}
               </ul>
             </div>
+            <a
+              id="resume-link-1"
+              href={resume}
+              download
+              className={`${styles.btn} ${styles.btn2} nav-link resume`}
+            >
+              <button
+                style={{
+                  fontSize: "18px",
+                  backgroundColor: "rgb(255,0,79)",
+                  border: "1px solid rgb(255,0,79)",
+                  color: "white",
+                }}
+                id="resume-button-2"
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/1wfTGepeeOCRN6xcAGUbzGlWHZJoTjLO-/view?usp=sharing"
+                  )
+                }
+              >
+                Resume
+              </button>
+            </a>
           </div>
         </div>
       </div>

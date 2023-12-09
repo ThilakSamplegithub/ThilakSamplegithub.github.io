@@ -61,6 +61,25 @@
 .tab_contents.active_tab{
     display:block;
 }
+.btn{
+    display: block;
+    margin:50px auto;
+    width:fit-content;
+    border:1px solid #ff004f;
+    padding:14px 50px;
+    border-radius: 6px;
+    text-decoration:none;
+    color:#fff;
+    transition:background 0.5s;
+    /* here transition is added to background */
+}
+.btn.btn2{
+    display:inline-block;
+    background:#ff004f;
+}
+.btn.btn2:hover{
+    cursor:pointer
+}
 @media only screen and (max-width:600px) {
     .sub_title{
         font-size:40px;

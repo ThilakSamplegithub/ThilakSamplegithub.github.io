@@ -1,36 +1,83 @@
-import React, { useState,useEffect } from 'react'
-import styles from "../Styles/navbar.module.css"
-import logo from "../Images/logo.png"
+import React, { useState, useEffect } from "react";
+import styles from "../Styles/navbar.module.css";
+import logo from "../Images/logo.png";
+import resume from "../Images/Thilak-Singh-Resume.pdf";
 const Navbar = () => {
-    const[ismenuOpen,setIsmenuOpen]=useState(false)
-  useEffect(()=>{
-   const sidemenu= document.getElementsByClassName("sidemenu")
-   console.log(sidemenu[0]?.style.right)
-   ismenuOpen?sidemenu[0].style.right="0px":sidemenu[0].style.right="-200px"
-  },[ismenuOpen])
+  const [ismenuOpen, setIsmenuOpen] = useState(false);
+  useEffect(() => {
+    const sidemenu = document.getElementsByClassName("sidemenu");
+    console.log(sidemenu[0]?.style.right);
+    ismenuOpen
+      ? (sidemenu[0].style.right = "0px")
+      : (sidemenu[0].style.right = "-200px");
+  }, [ismenuOpen]);
   return (
-    <div style={{margin:"-0.7% 0px",position:"fixed",boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",border:'0px solid #ff004f',width:'80%',zIndex:5,backgroundColor:'#080808'}}>
-      <nav >
+    <div
+      style={{
+        margin: "-0.7% 0px",
+        position: "fixed",
+        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+        border: "0px solid #ff004f",
+        width: "80%",
+        zIndex: 5,
+        backgroundColor: "#080808",
+      }}
+    >
+      <nav>
         <img src={logo} alt="error" className={styles.logo} />
         <ul className={"sidemenu"}>
           <li>
-            <a className="nav-link home" href="#header">Home</a>
+            <a className="nav-link home" href="#header">
+              Home
+            </a>
           </li>
           <li>
-            <a className="nav-link about" href="#about">About</a>
+            <a className="nav-link about" href="#about">
+              About
+            </a>
           </li>
           <li>
-            <a  href="#skills">Skills</a>
+            <a href="#skills">Skills</a>
           </li>
           <li>
-            <a className="nav-link projects" href="#projects">Projects</a>
+            <a className="nav-link projects" href="#projects">
+              Projects
+            </a>
           </li>
           <li>
-            <a className="nav-link contact" href="#contact">Contact</a>
+            <a className="nav-link contact" href="#contact">
+              Contact
+            </a>
+          </li>
+          <li>
+            <a
+              id="resume-link-1"
+              href={resume}
+              download
+              className={`${styles.btn} ${styles.btn2} nav-link resume`}
+            >
+              <button
+                style={{
+                  fontSize: "18px",
+                  background: "black",
+                  color: "white",
+                  border: "1px solid black",
+                  cursor:"pointer"
+                }}
+                id="resume-button-2"
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/1wfTGepeeOCRN6xcAGUbzGlWHZJoTjLO-/view?usp=sharing"
+                  )
+                }
+              >
+                Resume
+              </button>
+            </a>
           </li>
           <svg
-          className={styles.fas}
-          onClick={()=>setIsmenuOpen(false)}
+            className={styles.fas}
+            onClick={() => setIsmenuOpen(false)}
             xmlns="http://www.w3.org/2000/svg"
             width="32"
             height="32"
@@ -43,8 +90,8 @@ const Navbar = () => {
           </svg>
         </ul>
         <svg
-        className={styles.fas}
-        onClick={()=>setIsmenuOpen(true)}
+          className={styles.fas}
+          onClick={() => setIsmenuOpen(true)}
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -57,7 +104,7 @@ const Navbar = () => {
         </svg>
       </nav>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
