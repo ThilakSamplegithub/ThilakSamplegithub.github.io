@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "../Styles/about.module.css";
-import user from "../Images/user.png";
+import user from "../Images/user2.png";
 import resume from "../Images/Thilak-Singh-Resume.pdf"
 const About = () => {
   const [display, setDisplay] = useState(false);

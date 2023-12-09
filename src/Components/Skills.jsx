@@ -112,7 +112,7 @@ const Skills = () => {
                 <path d="M.5 12.5a1 1 0 0 0 1 1m3 0H6m3 0h1.5M.5 8v1.5m0-6V5" />
               </g>
             </svg>
-            <h1>Front End</h1>
+            <h1 >Front End</h1>
             <div  style={{display:"flex",flexWrap:"wrap"}}>{frontEnd.map(({icon,name})=>{
               return(
                 <div >
@@ -137,7 +137,7 @@ const Skills = () => {
                 d="M13.5 7.5v5a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1v-11a1 1 0 0 1 1-1h4v7Zm-13-4h13m-3.5 4v-7"
               />
             </svg>
-            <h1>Back-End</h1>
+            <h1 >Back-End</h1>
             <div style={{display:"flex",flexWrap:"wrap"}}>{backEnd.map(({icon,name})=>{
               return(
                 <div >

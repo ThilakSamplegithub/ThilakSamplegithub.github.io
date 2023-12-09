@@ -16,8 +16,8 @@ const Navbar = () => {
       style={{
         margin: "-0.7% 0px",
         position: "fixed",
-        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-        border: "0px solid #ff004f",
+        // boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+        border: "0px solid #080808",
         width: "80%",
         zIndex: 5,
         backgroundColor: "#080808",
@@ -56,12 +56,11 @@ const Navbar = () => {
               download
               className={`${styles.btn} ${styles.btn2} nav-link resume`}
             >
-              <button
+              <button className={styles.resume}
                 style={{
                   fontSize: "18px",
-                  background: "black",
                   color: "white",
-                  border: "1px solid black",
+                  // border: "1px solid black",
                   cursor:"pointer"
                 }}
                 id="resume-button-2"

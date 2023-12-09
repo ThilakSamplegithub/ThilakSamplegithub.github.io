@@ -36,6 +36,10 @@ nav ul li a:hover::after{
 nav .fas{
     display:none;
 }
+.resume{
+    background-color: #080808;
+    border: 1px solid #080808,
+}
 @media only screen and (max-width:600px){
     nav .fas{
         display:block;
@@ -61,5 +65,9 @@ nav .fas{
         top:25px;
         left:25px;
         cursor:pointer;
+    }
+    .resume {
+        background: #ff004f;
+        border:1px solid #ff004f
     }
 }
