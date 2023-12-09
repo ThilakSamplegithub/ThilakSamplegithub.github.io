@@ -20,7 +20,11 @@
         color:#ff004f
     }
 /* now media queries */
-
+@media only screen and (width<=853px){
+    .headerText{
+        margin-top: 50%;
+    }
+}
 @media only screen and (max-width:600px){
     .navheader{
         background-image: url(../Images/phone-background2.png);

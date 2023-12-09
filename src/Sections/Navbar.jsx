@@ -17,11 +17,11 @@ const Navbar = () => {
         margin: "-0.7% 0px",
         position: "fixed",
         // boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-        border: "0px solid #080808",
-        width: "80%",
+        // width: "80%",
         zIndex: 5,
         backgroundColor: "#080808",
       }}
+      className={`${styles.container}`}
     >
       <nav>
         <img src={logo} alt="error" className={styles.logo} />

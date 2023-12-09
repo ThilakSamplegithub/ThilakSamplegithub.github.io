@@ -12,7 +12,7 @@ import About from './Components/About';
 import Tools from './Components/Tools';
 function App() {
   return (
-    <div className="App" style={{border:"0px solid blue"}}>
+    <div className="App" style={{border:"1px solid blue"}}>
       <div ><Navbar/></div>
       <div>
       <Home/>
