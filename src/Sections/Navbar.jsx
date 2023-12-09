@@ -9,7 +9,7 @@ const Navbar = () => {
    ismenuOpen?sidemenu[0].style.right="0px":sidemenu[0].style.right="-200px"
   },[ismenuOpen])
   return (
-    <div style={{margin:"-0.7% 0px",position:"fixed",border:'1px solid #ff004f',width:'80%',zIndex:5,backgroundColor:'#080808'}}>
+    <div style={{margin:"-0.7% 0px",position:"fixed",boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",border:'0px solid #ff004f',width:'80%',zIndex:5,backgroundColor:'#080808'}}>
       <nav >
         <img src={logo} alt="error" className={styles.logo} />
         <ul className={"sidemenu"}>
@@ -20,10 +20,10 @@ const Navbar = () => {
             <a className="nav-link about" href="#about">About</a>
           </li>
           <li>
-            <a  href="#services">Skills</a>
+            <a  href="#skills">Skills</a>
           </li>
           <li>
-            <a className="nav-link projects" href="#portfolio">Projects</a>
+            <a className="nav-link projects" href="#projects">Projects</a>
           </li>
           <li>
             <a className="nav-link contact" href="#contact">Contact</a>
