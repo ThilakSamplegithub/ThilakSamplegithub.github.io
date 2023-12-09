@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.56ca7504.css",
-    "main.js": "/static/js/main.d791a391.js",
+    "main.css": "/static/css/main.2ee49f2f.css",
+    "main.js": "/static/js/main.c764051e.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/work-1.png": "/static/media/work-1.9d70c2239b9cefe78a18.png",
-    "static/media/work-2.png": "/static/media/work-2.893b3d33cde47ed0012c.png",
     "static/media/work-11.png": "/static/media/work-11.c185da7b426fc341f351.png",
-    "static/media/work-3.png": "/static/media/work-3.de1df78bf5ca74ec3063.png",
     "static/media/phone-background2.png": "/static/media/phone-background2.161a3e1e26c18455aff1.png",
+    "static/media/work-33.png": "/static/media/work-33.7d7c25d2737e174b7828.png",
     "static/media/background3.png": "/static/media/background3.2ae4416ba0325e169512.png",
+    "static/media/work-22.png": "/static/media/work-22.359f78364d8f86ef860d.png",
     "static/media/user.png": "/static/media/user.7eedb0ee63c7d36e9316.png",
+    "static/media/work-44.png": "/static/media/work-44.1a3f323ff81647c12166.png",
     "static/media/resume.pdf": "/static/media/resume.e22fdbbba0c1adcd97c7.pdf",
     "static/media/logo.png": "/static/media/logo.3b102b00bc5b3d837ae4.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.56ca7504.css.map": "/static/css/main.56ca7504.css.map",
-    "main.d791a391.js.map": "/static/js/main.d791a391.js.map",
+    "main.2ee49f2f.css.map": "/static/css/main.2ee49f2f.css.map",
+    "main.c764051e.js.map": "/static/js/main.c764051e.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56ca7504.css",
-    "static/js/main.d791a391.js"
+    "static/css/main.2ee49f2f.css",
+    "static/js/main.c764051e.js"
   ]
 }
