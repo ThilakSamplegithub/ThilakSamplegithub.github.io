@@ -60,7 +60,9 @@ const Navbar = () => {
                 style={{
                   fontSize: "18px",
                   color: "white",
-                  // border: "1px solid black",
+                  border: "1px solid pink",
+                  padding:10,
+                  borderRadius:10,
                   cursor:"pointer"
                 }}
                 id="resume-button-2"
