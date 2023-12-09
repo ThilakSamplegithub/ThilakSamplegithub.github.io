@@ -58,7 +58,7 @@ const About = () => {
                 <li>
                   <span>Web Development</span>
                   <br />
-                  Web app Development
+                  Web Development
                 </li>
               </ul>
             </div>

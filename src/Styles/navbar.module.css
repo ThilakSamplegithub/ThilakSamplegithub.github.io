@@ -38,7 +38,7 @@ nav .fas{
 }
 .resume{
     background-color: #080808;
-    border: 1px solid #080808,
+    /* border: 1px solid #ff004f, */
 }
 @media only screen and (max-width:600px){
     nav .fas{
