@@ -22,10 +22,16 @@
 }
 @media  only screen and (width<=600px) {
     .stats img{
-        width:250px;
+        width:200px;
     }
     .stats p+div{
         border:0px solid red;
-        margin:5% 10%
+        margin:5% 6%
+    }
+}
+@media only screen and (width<322px){
+    .githubCalender{
+        /* border:1px solid red;
+        margin-right: 6%; */
     }
 }

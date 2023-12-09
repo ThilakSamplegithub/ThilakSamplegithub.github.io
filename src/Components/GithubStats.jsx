@@ -29,7 +29,7 @@ const GithubStats = () => {
           alt="ThilakSamplegithub"
         />
       </p></div>
-      <div >
+      <div className={styles.githubCalender}  >
         <GitHubCalendar style={{display:"block",margin:"auto"}} username="ThilakSamplegithub" /></div>
       
     </div>
