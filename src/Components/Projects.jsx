@@ -30,7 +30,7 @@ const Projects = () => {
       title: "Dressing Valley",
       image: work33,
       description:
-        "Welcome to  eCommerce website,dressingvalley.An eCommerce platform known to offer a stylish collection of clothing and accessories for women, men, and kids. Discover the latest trends in fashion, from elegant handbags to fashionable footwear and exquisite jewelry—all in one place.",
+        "An eCommerce platform known to offer a stylish collection of clothing and accessories for women, men, and kids.",
       githubLink:"https://github.com/ThilakSamplegithub/Dressing-Valley",
       live:"https://ecommercewebsiteusingreact.vercel.app/",
       role:'Individual',
