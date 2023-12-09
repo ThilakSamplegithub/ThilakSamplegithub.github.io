@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2ee49f2f.css",
-    "main.js": "/static/js/main.79358d63.js",
+    "main.js": "/static/js/main.4a916d41.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/work-11.png": "/static/media/work-11.c185da7b426fc341f351.png",
     "static/media/phone-background2.png": "/static/media/phone-background2.161a3e1e26c18455aff1.png",
@@ -9,16 +9,16 @@
     "static/media/background3.png": "/static/media/background3.2ae4416ba0325e169512.png",
     "static/media/work-22.png": "/static/media/work-22.359f78364d8f86ef860d.png",
     "static/media/user.png": "/static/media/user.7eedb0ee63c7d36e9316.png",
+    "static/media/Thilak-Singh-Resume.pdf": "/static/media/Thilak-Singh-Resume.f2349d88a56046b64ccf.pdf",
     "static/media/work-44.png": "/static/media/work-44.1a3f323ff81647c12166.png",
-    "static/media/resume.pdf": "/static/media/resume.e22fdbbba0c1adcd97c7.pdf",
     "static/media/logo.png": "/static/media/logo.3b102b00bc5b3d837ae4.png",
     "index.html": "/index.html",
     "main.2ee49f2f.css.map": "/static/css/main.2ee49f2f.css.map",
-    "main.79358d63.js.map": "/static/js/main.79358d63.js.map",
+    "main.4a916d41.js.map": "/static/js/main.4a916d41.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ee49f2f.css",
-    "static/js/main.79358d63.js"
+    "static/js/main.4a916d41.js"
   ]
 }
