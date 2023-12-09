@@ -50,7 +50,7 @@ const Projects = () => {
   return (
     <div id={"projects"}>
       <div >
-        <h1 className={styles.subTitle}>My Work</h1>
+        <h1 className={styles.subTitle}>My Projects</h1>
         <div className={styles.work_list}>
             {projects.map(({image,title,description,techStack,live,githubLink,role})=>{
               return<div className={styles.work}>

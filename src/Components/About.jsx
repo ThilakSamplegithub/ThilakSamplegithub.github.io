@@ -59,11 +59,11 @@ const About = () => {
                   <br />
                   Web app Development
                 </li>
-                <li>
+                {/* <li>
                   <span>App Development</span>
                   <br />
                   Building Android/iOS apps
-                </li>
+                </li> */}
               </ul>
             </div>
             <div
