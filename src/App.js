@@ -12,7 +12,7 @@ import About from './Components/About';
 import Tools from './Components/Tools';
 function App() {
   return (
-    <div className="App" style={{}}>
+    <div className="App">
       <div ><Navbar/></div>
       <div>
       <Home/>

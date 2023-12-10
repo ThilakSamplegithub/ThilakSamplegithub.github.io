@@ -12,7 +12,7 @@ const Navbar = () => {
       : (sidemenu[0].style.right = "-200px");
   }, [ismenuOpen]);
   return (
-    <div
+    <div id="nav-menu"
       style={{
         margin: "-0.7% 0px",
         position: "fixed",
@@ -27,7 +27,7 @@ const Navbar = () => {
         <img src={logo} alt="error" className={styles.logo} />
         <ul className={"sidemenu"}>
           <li>
-            <a className="nav-link home" href="#header">
+            <a className="nav-link home" href="#home">
               Home
             </a>
           </li>
@@ -37,7 +37,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <a className="nav-link skills" href="#skills">Skills</a>
           </li>
           <li>
             <a className="nav-link projects" href="#projects">

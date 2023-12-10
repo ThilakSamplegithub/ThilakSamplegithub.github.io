@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../Styles/services.module.css";
+import styles from "../Styles/skills.module.css";
 const Skills = () => {
   const skillsData = [
     {

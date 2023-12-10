@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../Styles/portfolio.module.css";
+import styles from "../Styles/projects.module.css";
 import work11 from "../Images/work-11.png";
 import work22 from "../Images/work-22.png";
 import work33 from "../Images/work-33.png";
