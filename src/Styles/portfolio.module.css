@@ -4,8 +4,8 @@
 } */
 .work_list{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
-    grid-gap:40px;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+   gap:40px;
     margin-top:50px;
     border:0px solid red;
     grid-auto-rows: 500px;
@@ -93,3 +93,10 @@ transform:scale(1.1)
     border:1px solid #ff004f;
     cursor:pointer
     }
+@media only screen and (width<327px){
+    .work_list{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+        gap:10px
+    }
+}

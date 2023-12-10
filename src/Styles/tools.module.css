@@ -32,3 +32,17 @@
     /* background:#ff004f; */
     transform:translateY(-10px);
 }
+.tools{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap:10px;
+    border:0px solid saddlebrown
+}
+.tools div{
+    border:1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto
+}

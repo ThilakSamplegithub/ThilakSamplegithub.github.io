@@ -1,7 +1,11 @@
 .services_list{
-    border:0px solid red;
+    border:5px solid red;
+    /* display: flex;
+    flex-wrap: wrap;
+    gap:40px;
+    margin-top: 50px; */
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     grid-gap:40px;
     margin-top: 50px;
 }
@@ -32,4 +36,54 @@
 .services_list div:hover{
     /* background:#ff004f; */
     transform:translateY(-10px);
+}
+.frontend{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+    gap:10px;
+    border:0px solid magenta
+}
+.frontend div{
+    border:0px solid green;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.backend{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    gap:10px;
+}
+.backend div{
+    border:0px solid green;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+@media only screen and (width<765px){
+    .services_list{
+        display: block;
+    }
+}
+@media only screen and (width<352px){
+    .frontend{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .frontend div{
+        width:50%
+    }
+    .backend{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .backend div{
+        width:50%
+    }
 }
