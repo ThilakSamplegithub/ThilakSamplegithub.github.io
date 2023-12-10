@@ -51,7 +51,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              id="resume-link-1"
+              // id="resume-link-1"
               href={resume}
               download={"Thilak-Singh-Resume.pdf"}
               className={`${styles.btn} ${styles.btn2} nav-link resume`}
@@ -65,7 +65,7 @@ const Navbar = () => {
                   borderRadius:10,
                   cursor:"pointer"
                 }}
-                id="resume-button-2"
+                id="resume-button-1"
                 onClick={() =>
                   window.open(
                     "https://drive.google.com/file/d/1wfTGepeeOCRN6xcAGUbzGlWHZJoTjLO-/view?usp=sharing"
