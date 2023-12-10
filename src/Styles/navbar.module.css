@@ -5,7 +5,7 @@
 }
 .container{
     width: 80%;
-    border:1px solid red;
+    border:0px solid red;
     /* margin: "-0.7% 0px" */
 }
 nav{
@@ -79,4 +79,10 @@ nav .fas{
         background: #ff004f;
         border:1px solid #ff004f
     }
+}
+@media only screen and (width<=291px){
+  .container{
+    border:0px solid seagreen;
+    width:70%
+  }
 }

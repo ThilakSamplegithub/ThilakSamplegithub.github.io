@@ -30,11 +30,11 @@ const Tools = () => {
   ];
   return (
     <div>
-      <div id={"skills"}>
-        <div className={styles.container}>
+      {/* <div id={"skills"} > */}
+        <div >
           <h1 className="sub_title">Tools</h1>
-          <div className={`${styles.services_list}`}>
-            <div>
+          <div style={{border:'0px solid red'}} className={`${styles.services_list}`}>
+            <div >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -47,7 +47,7 @@ const Tools = () => {
                 />
               </svg>
               <h1 className={styles.heading}>Tools</h1>
-              <div className={styles.tools}>
+              <div className={styles.tools} style={{border:'0px solid red',textAlign:'center'}}>
                 {tools.map(({ icon, name }) => {
                   return (
                     <div>
@@ -61,7 +61,7 @@ const Tools = () => {
           </div>
         </div>
       </div>
-    </div>
+    // </div>
   );
 };
 

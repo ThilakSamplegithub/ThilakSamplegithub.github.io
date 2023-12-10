@@ -61,7 +61,7 @@ const Skills = () => {
       <div className={styles.container}>
         <h1 className="sub_title">Technical Skills</h1>
         <div className={`${styles.services_list}`}>
-          <div style={{border:"1px solid orange" }}>
+          <div style={{border:"0px solid orange" }}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="50"

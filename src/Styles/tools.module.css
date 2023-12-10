@@ -1,7 +1,7 @@
+.mainBox{
+  border:0px solid red;
+}
 .services_list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-    grid-gap:40px;
     margin-top: 50px;
 }
 .services_list div{
@@ -36,13 +36,29 @@
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     gap:10px;
-    border:0px solid saddlebrown
+    border:0px solid saddlebrown;
+    margin:auto
+    /* margin: */
 }
 .tools div{
-    border:1px solid red;
+    border:0px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:auto
+    /* margin:auto */
+    /* margin:0px 50% */
+    /* margin-right: 90% */
+}
+@media only screen and (width<506px){
+    .tools div{
+        margin-right:60%
+    }
+}
+@media only screen and (width<279px){
+    .tools div{
+        border:0px solid salmon;
+        margin-left:-13%;
+        width:100px
+    }
 }
