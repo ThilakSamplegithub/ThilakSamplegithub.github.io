@@ -83,7 +83,7 @@ const About = () => {
               </ul>
             </div>
             <a
-              id="resume-link-1"
+              id="resume-link-2"
               href={resume}
               download={"Thilak-Singh-Resume.pdf"}
               className={`${styles.btn} ${styles.btn2} nav-link resume`}

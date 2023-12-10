@@ -50,7 +50,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a
+            <a id="resume-link-1"
               href={resume}
               download={"Thilak-Singh-Resume.pdf"}
               className={`${styles.btn} ${styles.btn2} nav-link resume`}
