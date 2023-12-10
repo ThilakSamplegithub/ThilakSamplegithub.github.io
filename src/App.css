@@ -1,6 +1,7 @@
- @media  only screen and (width<=561px){
+ @media  only screen and (width<=283px){
   .App {
-    /* border:6px solid magenta */
+    border:0px solid magenta;
+    margin-left: 10%;
   }
  }
 

@@ -6,7 +6,7 @@
     margin-top: 50px; */
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-    gap:40px;
+    grid-gap:40px;
     margin-top: 50px;
 }
 .services_list div{
@@ -16,6 +16,7 @@
     font-weight: 300;
     border-radius: 10px;
     transition:background 0.5s,transform 0.5s;
+    margin:10px 0px
 }
 .services_list div svg{
     font-size: 50px;
