@@ -53,15 +53,16 @@ const Projects = () => {
         <h1 className={styles.subTitle}>My Projects</h1>
         <div className={styles.work_list}>
             {projects.map(({image,title,description,techStack,live,githubLink,role})=>{
-              return<div className={styles.work}>
+              return<div className={`${styles.work} project-card`}>
                 <img src={image} width={'100%'}/>
                 <div className={styles.layer}>
-                <h3>{title}</h3>
-                <p>{description}</p>
+                <h3 className="project-title">{title}</h3>
+                <p className="project-description">{description}</p>
                 <div className={styles.icons}>
                 <a
                   target="_blank"
                   href={githubLink}
+                  className="project-github-link"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -78,6 +79,7 @@ const Projects = () => {
                 <a
                   target="_blank"
                   href={live}
+                  className="project-deployed-link"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +97,7 @@ const Projects = () => {
                   </svg>
                 </a></div>
                 <b style={{ margin: "10px 0px 0px 0px" }}>Role :{role}</b>
-                <div className={styles.tech}>
+                <div className={`${styles.tech} project-tech-stack`}>
                   {techStack.map(el=>{
                     return<button>{el}</button>
                   })}

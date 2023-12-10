@@ -81,9 +81,9 @@ const Skills = () => {
             <h1  >Front End</h1>
             <div className={styles.frontend}>{frontEnd.map(({icon,name})=>{
               return(
-                <div style={{textAlign:'center'}}>
-                  <img src={icon} alt={name} width={100} />
-                  <p>{name}</p>
+                <div className="skills-card" style={{textAlign:'center'}}>
+                  <img  className="skills-card-img" src={icon} alt={name} width={100} />
+                  <p className="skills-card-name">{name}</p>
                 </div>
               )
             })}</div>
