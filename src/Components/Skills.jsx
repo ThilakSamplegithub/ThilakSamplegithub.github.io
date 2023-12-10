@@ -106,15 +106,15 @@ const Skills = () => {
             <h1 >Back-End</h1>
             <div className={styles.backend}>{backEnd.map(({icon,name})=>{
               return(
-                <div >
-                  <img src={icon} alt={name} width={100}/>
-                  <p>{name}</p>
+                <div className="skills-card">
+                  <img className="skills-card-img" src={icon} alt={name} width={100}/>
+                  <p className="skills-card-name">{name}</p>
                 </div>
               )
             })}</div>
           </div>
         </div>
-      </div>
+      </div> 
     </div>
   );
 };

@@ -9,6 +9,7 @@ const GithubStats = () => {
       <p>
         &nbsp;
         <img
+        id="github-stats-card"
           align="center"
           src="https://github-readme-stats.vercel.app/api?username=ThilakSamplegithub&theme=algolia&show_icons=true&locale=en"
           alt="ThilakSamplegithub"
@@ -17,14 +18,14 @@ const GithubStats = () => {
       <div>
       <p>
         <img
-          align="center"
+          align="center" id="github-streak-stats"
           src="https://github-readme-streak-stats.herokuapp.com/?user=ThilakSamplegithub&theme=great-gatsby"
           alt="ThilakSamplegithub"
         />
       </p>
       <p>
         <img
-          align="center" width={"100%"}
+          align="center" id="github-streak-stats" width={"100%"}
           src="https://github-readme-stats.vercel.app/api/top-langs?username=ThilakSamplegithub&theme=omni&show_icons=true&locale=en&layout=compact"
           alt="ThilakSamplegithub"
         />
