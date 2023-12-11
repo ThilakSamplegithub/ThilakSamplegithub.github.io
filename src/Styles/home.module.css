@@ -20,6 +20,11 @@
         color:#ff004f
     }
 /* now media queries */
+@media only screen and (width<1505px){
+    .header{
+        background-image: url(../Images/background2.5.png);
+    }
+}
 @media only screen and (width<=853px){
     .headerText{
         margin-top: 50%;

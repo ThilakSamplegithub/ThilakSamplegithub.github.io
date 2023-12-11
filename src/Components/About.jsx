@@ -53,7 +53,7 @@ const About = () => {
                 <li>
                   <span>UI?UX</span>
                   <br />
-                  Designing Web/App interface
+                  Designing Web interface
                 </li>
                 <li>
                   <span>Web Development</span>

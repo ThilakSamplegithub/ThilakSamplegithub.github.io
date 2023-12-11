@@ -14,7 +14,6 @@
    border-radius: 10px;
    position: relative;
    overflow: hidden; 
-   /* height:500px */
 }
 .work img{
     width: 100%;
@@ -25,7 +24,7 @@
 }
 .layer{
     width:100%;
-    height:0;
+    height:100%;
     /* To make text on box to disappear I made height as 0 */
     background:linear-gradient(rgba(0,0,0,0.6),#ff004f);
     border-radius:10px;
@@ -66,10 +65,10 @@
 transform:scale(1.1)
 }
 .work:hover .layer{
-    height: 100%;
+    /* height: 100%; */
 }
 .btn{
-    display: block;
+    /* display: block;
     margin:50px auto;
     width:fit-content;
     border:1px solid #ff004f;
@@ -77,11 +76,11 @@ transform:scale(1.1)
     border-radius: 6px;
     text-decoration:none;
     color:#fff;
-    transition:background 0.5s;
+    transition:background 0.5s; */
     /* here transition is added to background */
 }
 .btn:hover{
-    background:#ff004f;
+    /* background:#ff004f; */
 }
 .tech button{
     display:inline-block;

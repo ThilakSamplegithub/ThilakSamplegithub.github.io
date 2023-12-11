@@ -20,6 +20,7 @@
     margin:50px 0px;
     padding:50px
 }
+
 @media  only screen and (width<=600px) {
     .stats img{
         width:200px;
@@ -30,8 +31,17 @@
     }
 }
 @media only screen and (width<322px){
-    .githubCalender{
-        /* border:1px solid red;
-        margin-right: 6%; */
+    .githubCalender {
+        border:0px solid red;
+        text-wrap: balance;
+        /* padding:1% */
+        /* width:30% */
+        /* display:flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* width:70% */
+        /* padding:15%; */
+        /* margin-left: -50px; */
     }
 }

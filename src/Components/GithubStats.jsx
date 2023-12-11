@@ -30,10 +30,9 @@ const GithubStats = () => {
           alt="ThilakSamplegithub"
         />
       </p></div>
-      <div className={styles.githubCalender}  >
-        <GitHubCalendar style={{display:"block",margin:"auto"}} username="ThilakSamplegithub" /></div>
-      
-    </div>
+      <div style={{padding:'0%',display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",flexWrap:"wrap"}} className={styles.githubCalender}  >
+        <GitHubCalendar username="ThilakSamplegithub" /></div>
+      </div>
   );
 };
 
