@@ -14,7 +14,7 @@ const Projects = () => {
       githubLink:"https://github.com/ThilakSamplegithub/Foodies-Paradise",
       live:"https://foodiesparadisefrontend.vercel.app/",
       role:'team Lead',
-      techStack:["HTML","CSS","Javascript","Chakra UI","Reactjs","Redux","RestFUl api","Node.js",'Express.js',"Mongodb",'Mongoose']
+      techStack:["HTML","CSS","Javascript","Chakra UI","Reactjs","Redux","RestFUl api","Node.js",'Express.js',"Mongodb",'Mongoose','MERN']
     },
     {
       title: "ShopCart",
