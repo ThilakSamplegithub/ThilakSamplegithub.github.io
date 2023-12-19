@@ -11,7 +11,7 @@ const Projects = () => {
       image: work11,
       description:
         "Architected Foodies Paradise, an innovative e-commerce platformset to redefine online grocery shopping.",
-      githubLink:"https://github.com/ThilakSamplegithub/Foodies-Paradise",
+      githubLink:"https://github.com/ThilakSamplegithub/FullStack-foodies-1",
       live:"https://foodiesparadisefrontend.vercel.app/",
       role:'team Lead',
       techStack:["HTML","CSS","Javascript","Chakra UI","Reactjs","Redux","RestFUl api","Node.js",'Express.js',"Mongodb",'Mongoose','MERN']
