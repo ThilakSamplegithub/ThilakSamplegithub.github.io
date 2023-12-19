@@ -12,9 +12,9 @@ const Projects = () => {
       description:
         "Architected Foodies Paradise, an innovative e-commerce platformset to redefine online grocery shopping.",
       githubLink:"https://github.com/ThilakSamplegithub/Foodies-Paradise",
-      live:"https://sprightly-lolly-ea509d.netlify.app/",
+      live:"https://foodiesparadisefrontend.vercel.app/",
       role:'team Lead',
-      techStack:["HTML","CSS","Javascript","Chakra UI","Reactjs","Redux","RestFUl api"]
+      techStack:["HTML","CSS","Javascript","Chakra UI","Reactjs","Redux","RestFUl api","Node.js",'Express.js',"Mongodb",'Mongoose']
     },
     {
       title: "ShopCart",
