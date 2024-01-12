@@ -4,6 +4,7 @@ import work11 from "../Images/work-11.png";
 import work22 from "../Images/work-22.png";
 import work33 from "../Images/work-33.png";
 import work44 from "../Images/work-44.png";
+import work55 from "../Images/work-55.png"
 const Projects = () => {
   const projects = [
     {
@@ -15,6 +16,16 @@ const Projects = () => {
       live:"https://foodiesparadisefrontend.vercel.app/",
       role:'team Lead',
       techStack:["HTML","CSS","Javascript","Chakra UI","Reactjs","Redux","RestFUl api","Node.js",'Express.js',"Mongodb",'Mongoose','MERN',"Memoization","Lazy-Loading"]
+    },
+    {
+      title: "Spark Riders",
+      image: work55,
+      description:
+        "Riders Share: Streamlining passenger-driver connections for efficient and convenient ride-sharing.",
+      githubLink:"https://github.com/ThilakSamplegithub/Riders-Share-fullstack",
+      live:"https://sparkriders-p3oihwial-thilaksamplegithub.vercel.app/",
+      role:'team Lead',
+      techStack:["HTML","CSS","Javascript","Chakra UI","Reactjs","Redux","RestFUl api","Node.js",'Express.js',"Mongodb",'Mongoose','MERN',"JWT-authentication","Relationships"]
     },
     {
       title: "ShopCart",
