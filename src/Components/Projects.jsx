@@ -23,9 +23,9 @@ const Projects = () => {
       description:
         "Riders Share: Streamlining passenger-driver connections for efficient and convenient ride-sharing.",
       githubLink:"https://github.com/ThilakSamplegithub/Riders-Share-fullstack",
-      live:"https://sparkriders-p3oihwial-thilaksamplegithub.vercel.app/",
+      live:"https://sparkriders-855vr5fmu-thilaksamplegithub.vercel.app/",
       role:'team Lead',
-      techStack:["HTML","CSS","Javascript","Chakra UI","Reactjs","Redux","RestFUl api","Node.js",'Express.js',"Mongodb",'Mongoose','MERN',"JWT-authentication","Relationships"]
+      techStack:["HTML","CSS","Javascript","Chakra UI","Reactjs","Redux","RestFUl api","Node.js",'Express.js',"Mongodb",'Mongoose','MERN',"JWT","Regex","Relationships"]
     },
     {
       title: "ShopCart",
