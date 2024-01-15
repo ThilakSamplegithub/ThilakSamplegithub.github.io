@@ -14,7 +14,7 @@ const Projects = () => {
         "Architected Foodies Paradise, an innovative e-commerce platformset to redefine online grocery shopping.",
       githubLink:"https://github.com/ThilakSamplegithub/FullStack-foodies-1",
       live:"https://foodiesparadisefrontend.vercel.app/",
-      role:'team Lead',
+      role:'Team Lead',
       techStack:["HTML","CSS","Javascript","Chakra UI","Reactjs","Redux","RestFUl api","Node.js",'Express.js',"Mongodb",'Mongoose','MERN',"Memoization","Lazy-Loading"]
     },
     {
@@ -24,7 +24,7 @@ const Projects = () => {
         "Riders Share: Streamlining passenger-driver connections for efficient and convenient ride-sharing.",
       githubLink:"https://github.com/ThilakSamplegithub/Riders-Share-fullstack",
       live:"https://sparkriders-855vr5fmu-thilaksamplegithub.vercel.app/",
-      role:'team Lead',
+      role:'Team Lead',
       techStack:["HTML","CSS","Javascript","Chakra UI","Reactjs","Redux","RestFUl api","Node.js",'Express.js',"Mongodb",'Mongoose','MERN',"JWT","Regex","Relationships"]
     },
     {
@@ -34,7 +34,7 @@ const Projects = () => {
         "shopcart-An e-commerce website selling vast range of Electronic products like headphones, laptops,tablet etc.",
       githubLink:"https://github.com/ThilakSamplegithub/ShopCart",
       live:"https://myapp-asimji.vercel.app/",
-      role:'team member',
+      role:'Team member',
       techStack:["HTML","CSS","Javascript","Chakra UI","Reactjs","Redux","RestFUl api"]
     },
     {
@@ -54,7 +54,7 @@ const Projects = () => {
         "Designed a multifunctional web app for code conversion, quality analysis, and debugging.",
       githubLink:"https://github.com/ThilakSamplegithub/Code-Converter",
       live:"https://code-converter-app-tan.vercel.app/",
-      role:'team Lead',
+      role:'Individual',
       techStack:["HTML","CSS","Javascript",'Reactjs','openAI',"RestFUl api"]
     },
   ];
