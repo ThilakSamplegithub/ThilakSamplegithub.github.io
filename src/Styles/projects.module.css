@@ -100,9 +100,7 @@ transform:scale(1.1)
     }
 @media only screen and (width<327px){
     .work_list{
-        /* display: grid; */
         grid-auto-rows: 800px;
-        /* grid-template-columns: repeat(auto-fill,minmax(150px,1fr)); */
         gap:10px
     }
 }

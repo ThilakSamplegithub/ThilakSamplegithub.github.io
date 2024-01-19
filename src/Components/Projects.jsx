@@ -53,7 +53,7 @@ const Projects = () => {
       description:
         "Designed a multifunctional web app for code conversion, quality analysis, and debugging.",
       githubLink:"https://github.com/ThilakSamplegithub/Code-Converter",
-      live:"https://code-converter-app-tan.vercel.app/",
+      live:"https://code-converter-9sw36h9t0-thilaksamplegithub.vercel.app/",
       role:'Individual',
       techStack:["HTML","CSS","Javascript",'Reactjs','openAI',"RestFUl api"]
     },
