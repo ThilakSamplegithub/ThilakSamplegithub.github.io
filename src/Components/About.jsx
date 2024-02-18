@@ -15,7 +15,7 @@ const About = () => {
             <img src={user} alt="err" />
           </div>
           <div className={styles.about_col2}>
-            <h1 className={styles.subTitle}>about me</h1>
+            <h1 className={styles.subTitle}>bout me</h1>
             <p>
               A Results-driven MERN stack developer with a passion for building
               engaging and scalable web applications. As a dynamic problem

@@ -59,7 +59,7 @@ const Skills = () => {
   return (
     <div id={"skills"}>
       <div className={styles.container}>
-        <h1 className="sub_title">Technical Skills</h1>
+        <h1 className={styles.sub_title}>echnical Skills</h1>
         <div className={`${styles.services_list}`}>
           <div style={{border:"0px solid orange" }}>
             <svg

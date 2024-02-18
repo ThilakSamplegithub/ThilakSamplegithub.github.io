@@ -32,7 +32,7 @@ const Tools = () => {
     <div>
       {/* <div id={"skills"} > */}
         <div >
-          <h1 className="sub_title">Tools</h1>
+          <h1 className={styles.sub_title}>ools</h1>
           <div style={{border:'0px solid red'}} className={`${styles.services_list}`}>
             <div >
               <svg

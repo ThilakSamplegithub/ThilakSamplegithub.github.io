@@ -31,7 +31,7 @@ const Contact = () => {
       <div className={styles.container}>
         <div className={styles.row}>
           <div className={styles.contact_left}>
-            <h1 className={styles.sub_title}>Contact Me</h1>
+            <h1 className={styles.sub_title}>ontact Me</h1>
             <p id="contact-email">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

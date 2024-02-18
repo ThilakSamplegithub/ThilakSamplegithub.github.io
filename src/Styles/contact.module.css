@@ -1,4 +1,9 @@
-
+.sub_title::before{
+content:"~C";
+font-size: 50px;
+color:#ff004f;
+font-family: sans-serif;
+}
 .row{
     display: flex;
     justify-content:space-between;

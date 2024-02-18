@@ -1,6 +1,15 @@
 .mainBox{
   border:0px solid red;
 }
+.sub_title{
+    margin:30px 0px -30px 0px
+}
+.sub_title::before{
+    content:"~T";
+    font-size: 50px;
+    color:#ff004f;
+    font-family: sans-serif;
+}
 .services_list{
     margin-top: 50px;
 }

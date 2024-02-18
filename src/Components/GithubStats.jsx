@@ -4,7 +4,7 @@ import GitHubCalendar from 'react-github-calendar';
 const GithubStats = () => {
   return (
     <div className={styles.stats}>
-        <h1 style={{margin:'10px'}}>Github Statistics</h1>
+        <h1 style={{margin:'10px'}} className={styles.subTitle}>ithub Statistics</h1>
       <p align="left"></p>
       <p>
         &nbsp;

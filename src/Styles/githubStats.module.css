@@ -1,3 +1,9 @@
+.subTitle::before{
+content:"~G";
+font-size: 50px;
+color:#ff004f;
+font-family: sans-serif;
+}
 .stats p:nth-child(3){
     display: block;
     margin: auto;
