@@ -29,7 +29,7 @@ const Tools = () => {
     },
   ];
   return (
-    <div>
+    <div className={styles.container}>
       {/* <div id={"skills"} > */}
         <div >
           <h1 className={styles.sub_title}>ools</h1>

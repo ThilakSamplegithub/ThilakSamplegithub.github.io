@@ -74,7 +74,7 @@ const About = () => {
                   MERN stack development online traning at Masai School
                 </li>
                 <li>
-                  <span>2017</span>
+                  <span>2016</span>
                   <br />
                   ECE from Geethanjali College of Engineering and Technology
                   Hyderabad
