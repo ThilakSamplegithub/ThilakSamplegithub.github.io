@@ -27,6 +27,11 @@ const Tools = () => {
       name: "Github",
       category: "tool",
     },
+    {
+      icon: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/f4/b2/d5f4b237-27ac-0576-ba50-2f18e6495ec3/Xcode-85-220-0-4-2x-sRGB.png/246x0w.webp",
+      name: "Xcode",
+      category: "tool",
+    }
   ];
   return (
     <div className={styles.container}>
