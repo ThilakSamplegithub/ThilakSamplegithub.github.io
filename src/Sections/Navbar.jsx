@@ -67,7 +67,7 @@ const Navbar = () => {
                 id="resume-button-1"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1odqKAle_ZXx0RyuHQRJMeCmMbLjE1WaL/view?usp=sharing"
+                    "https://drive.google.com/file/d/1t3KGdE_xMJZnsMDSHdyGYliN3urgqexa/view?usp=sharing"
                   )
                 }
               >
