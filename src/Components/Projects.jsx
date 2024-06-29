@@ -13,9 +13,9 @@ const Projects = () => {
       description:
         "Architected Foodies Paradise, an innovative e-commerce platformset to redefine online grocery shopping.",
       githubLink:"https://github.com/ThilakSamplegithub/FullStack-foodies-1",
-      live:"https://foodiesparadisefrontend.vercel.app/",
+      live:"https://foodiesparadisefrontend-4n4728gbe-thilaksamplegithubs-projects.vercel.app/",
       role:'Team Lead',
-      techStack:["HTML","CSS","Javascript","Chakra UI","Reactjs","Redux","RestFUl api","Node.js",'Express.js',"Mongodb",'Mongoose','MERN',"Memoization","Lazy-Loading"]
+      techStack:["HTML","CSS","Javascript","Chakra UI","Reactjs","Redux","RestFUl api","Node.js",'Express.js',"Mongodb",'Mongoose','MERN',"Memoization","firebase","Lazy-Loading","google-auth"]
     },
     {
       title: "Spark Riders",
