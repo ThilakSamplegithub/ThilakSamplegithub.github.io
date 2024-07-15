@@ -138,7 +138,7 @@ const Skills = () => {
             </div>
           </div>
           {/* This is for devops */}
-          <div>
+          <div style={{border:'0px solid red'}}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="1em"
@@ -169,10 +169,9 @@ const Skills = () => {
             </svg>
             <h1>DevOps</h1>
             {devops?.map((el) => (
-              <div style={{display:"flex",flexWrap:'wrap'}}>
+              <div style={{display:"flex",flexWrap:'wrap',justifyContent:"center",margin:'auto'}}>
                 <div>
                   <img
-                    border={"0px solid red"}
                     width={100}
                     height={100}
                     src={el.icon}
