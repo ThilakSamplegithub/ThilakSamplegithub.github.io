@@ -31,41 +31,52 @@ const Tools = () => {
       icon: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/f4/b2/d5f4b237-27ac-0576-ba50-2f18e6495ec3/Xcode-85-220-0-4-2x-sRGB.png/246x0w.webp",
       name: "Xcode",
       category: "tool",
+    },
+    {
+      icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJl4fp0SkQbTPU5ZxVl6AKWYuKCwM0gIhNtQ&s",
+      name:'Docker',
+      category:'tool'
     }
   ];
   return (
     <div className={styles.container}>
       {/* <div id={"skills"} > */}
-        <div >
-          <h1 className={styles.sub_title}>ools</h1>
-          <div style={{border:'0px solid red'}} className={`${styles.services_list}`}>
-            <div >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-              >
-                <path
-                  fill="currentColor"
-                  d="M16.68 9.77a4.543 4.543 0 0 1-4.95.99l-5.41 6.52c-.99.99-2.59.99-3.58 0s-.99-2.59 0-3.57l6.52-5.42c-.68-1.65-.35-3.61.99-4.95c1.28-1.28 3.12-1.62 4.72-1.06l-2.89 2.89l2.82 2.82l2.86-2.87c.53 1.58.18 3.39-1.08 4.65zM3.81 16.21c.4.39 1.04.39 1.43 0c.4-.4.4-1.04 0-1.43c-.39-.4-1.03-.4-1.43 0a1.02 1.02 0 0 0 0 1.43z"
-                />
-              </svg>
-              <h1 className={styles.heading}>Tools</h1>
-              <div className={styles.tools} style={{border:'0px solid red',textAlign:'center'}}>
-                {tools.map(({ icon, name }) => {
-                  return (
-                    <div>
-                      <img src={icon} alt={name} width={100} />
-                      <p>{name}</p>
-                    </div>
-                  );
-                })}
-              </div>
+      <div>
+        <h1 className={styles.sub_title}>ools</h1>
+        <div
+          style={{ border: "0px solid red" }}
+          className={`${styles.services_list}`}
+        >
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+            >
+              <path
+                fill="currentColor"
+                d="M16.68 9.77a4.543 4.543 0 0 1-4.95.99l-5.41 6.52c-.99.99-2.59.99-3.58 0s-.99-2.59 0-3.57l6.52-5.42c-.68-1.65-.35-3.61.99-4.95c1.28-1.28 3.12-1.62 4.72-1.06l-2.89 2.89l2.82 2.82l2.86-2.87c.53 1.58.18 3.39-1.08 4.65zM3.81 16.21c.4.39 1.04.39 1.43 0c.4-.4.4-1.04 0-1.43c-.39-.4-1.03-.4-1.43 0a1.02 1.02 0 0 0 0 1.43z"
+              />
+            </svg>
+            <h1 className={styles.heading}>Tools</h1>
+            <div
+              className={styles.tools}
+              style={{ border: "0px solid red", textAlign: "center" }}
+            >
+              {tools.map(({ icon, name }) => {
+                return (
+                  <div>
+                    <img src={icon} alt={name} width={100} />
+                    <p>{name}</p>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
       </div>
+    </div>
     // </div>
   );
 };

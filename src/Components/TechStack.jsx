@@ -10,6 +10,7 @@ const TechStack = () => {
       <button><b>Redux</b></button>
       <button><b>Chakra UI</b></button>
       <button><b>Restful-API</b></button>
+      {/* <button><b>Docker</b></button> */}
     </div>
   )
 }
