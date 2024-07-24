@@ -34,7 +34,7 @@ const Projects = () => {
         "firebase",
         "Lazy-Loading",
         "google-auth",
-        "Docker",
+        "Dockerized",
       ],
     },
     {

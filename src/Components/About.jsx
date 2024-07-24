@@ -98,7 +98,7 @@ const About = () => {
                 id="resume-button-2"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1t3KGdE_xMJZnsMDSHdyGYliN3urgqexa/view?usp=sharing"
+                    "https://drive.google.com/file/d/1DwLfvfJWNK-wWPj_iJciGxuMlS1gz9-p/view?usp=sharing"
                   )
                 }
               >
