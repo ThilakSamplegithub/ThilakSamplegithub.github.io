@@ -13,7 +13,7 @@ const Projects = () => {
       description:
         "Architected Foodies Paradise, an innovative e-commerce platformset to redefine online grocery shopping.",
       githubLink: "https://github.com/ThilakSamplegithub/FullStack-foodies-1",
-      live: "https://foodiesparadisefrontend-4n4728gbe-thilaksamplegithubs-projects.vercel.app/",
+      live: "https://foodiesparadiseproject.netlify.app/",
       dockerImage:
         "https://hub.docker.com/repository/docker/truimphthilak15/hey-foodies-paradise/general",
       role: "Team Lead",
