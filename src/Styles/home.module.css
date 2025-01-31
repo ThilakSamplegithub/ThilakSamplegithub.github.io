@@ -20,7 +20,7 @@
         color:#ff004f
     }
 /* now media queries */
-@media only screen and (601px<width<1505px){
+@media only screen and (601px<width<1312px){
     .header{
         background-image: url(../Images/background2.5.png);
     }
