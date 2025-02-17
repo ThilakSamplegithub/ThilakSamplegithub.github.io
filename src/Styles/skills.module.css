@@ -45,7 +45,7 @@
 }
 .frontend{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
     gap:10px;
     border:0px solid magenta
 }
@@ -58,10 +58,22 @@
 }
 .backend{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
     gap:10px;
 }
 .backend div{
+    border:0px solid green;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.devops{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    gap:10px;
+}
+.devops div{
     border:0px solid green;
     display: flex;
     justify-content: center;

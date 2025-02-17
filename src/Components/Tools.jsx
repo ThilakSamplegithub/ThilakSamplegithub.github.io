@@ -17,11 +17,11 @@ const Tools = () => {
       name: "VS code",
       category: "tool",
     },
-    {
-      icon: "https://rangav.gallerycdn.vsassets.io/extensions/rangav/vscode-thunder-client/2.5.1/1678365054933/Microsoft.VisualStudio.Services.Icons.Default",
-      name: "Thunder",
-      category: "tool",
-    },
+    // {
+    //   icon: "https://rangav.gallerycdn.vsassets.io/extensions/rangav/vscode-thunder-client/2.5.1/1678365054933/Microsoft.VisualStudio.Services.Icons.Default",
+    //   name: "Thunder",
+    //   category: "tool",
+    // },
     {
       icon: "https://cdn-icons-png.flaticon.com/512/2175/2175377.png",
       name: "Github",

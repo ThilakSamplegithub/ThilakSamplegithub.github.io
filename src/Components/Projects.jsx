@@ -13,7 +13,7 @@ const Projects = () => {
       description:
         "Architected Foodies Paradise, an innovative e-commerce platformset to redefine online grocery shopping.",
       githubLink: "https://github.com/ThilakSamplegithub/FullStack-foodies-1",
-      live: "https://foodiesparadiseproject.netlify.app/",
+      live: "https://d2eqge3vjea0la.cloudfront.net",
       dockerImage:
         "https://hub.docker.com/repository/docker/truimphthilak15/hey-foodies-paradise/general",
       role: "Team Lead",
@@ -35,6 +35,8 @@ const Projects = () => {
         "Lazy-Loading",
         "google-auth",
         "Dockerized",
+        "AWS",
+        "S3"
       ],
     },
     {
