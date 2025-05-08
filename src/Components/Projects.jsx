@@ -67,6 +67,30 @@ const Projects = () => {
       ],
     },
     {
+      title: "Superstar Investors Tracker",
+      image: work55,
+      description:
+        "Discover common stock picks held by top investors like Warren Buffett, Rakesh Jhunjhunwala, and Ray Dalio. Analyze smarter.",
+      githubLink:
+        "https://github.com/ThilakSamplegithub/SuperStar-Investors-Website",
+      live: "https://superstarinvestorstracker.com/",
+      role: "Individual",
+      techStack: [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "RestFUl api",
+        "Node.js",
+        "Express.js",
+        "AWS s3",
+        "CloudFront",
+        "Aws Route53",
+        "SSL certificate",
+        "Web Scraping",
+        "Chrome Extension"
+      ],
+    },
+    {
       title: "ShopCart",
       image: work22,
       description:
