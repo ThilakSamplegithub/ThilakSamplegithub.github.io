@@ -69,17 +69,11 @@ const About = () => {
             >
               <ul>
                 <li>
-                  <span>2023</span>
-                  <br />
-                  MERN stack development online traning at Masai School
-                </li>
-                <li>
                   <span>2016</span>
                   <br />
                   ECE from Geethanjali College of Engineering and Technology
                   Hyderabad
                 </li>
-                {/* <li><span></span><br/>Building Android/iOS apps</li> */}
               </ul>
             </div>
             <a
@@ -98,7 +92,7 @@ const About = () => {
                 id="resume-button-2"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1bokVZs9uX3m7EF2StMS22MdQXwJB3-sn/view?usp=sharing"
+                    "https://drive.google.com/file/d/1E3HaGSOKRbUR2GZbrNuE-SCz8HNFA18J/view?usp=sharing"
                   )
                 }
               >
