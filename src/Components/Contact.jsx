@@ -84,7 +84,7 @@ const Contact = () => {
               <a
                 target="_blank"
                 id="contact-linkedin"
-                href="https://www.linkedin.com/in/thilak-singh-thakur-b1882b23a/"
+                href="https://www.linkedin.com/in/thilak-thakur-6b891736b/"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

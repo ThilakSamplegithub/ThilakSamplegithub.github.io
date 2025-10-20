@@ -69,6 +69,16 @@ const About = () => {
             >
               <ul>
                 <li>
+                  <span>2023</span>
+                  <br />
+                  Full Stack Web Development from Masai School,Bangalore
+                </li>
+                <li>
+                  <span>2022</span>
+                  <br />
+                  UPSC preparation from Chanakya IAS Academy, Delhi
+                </li>
+                <li>
                   <span>2016</span>
                   <br />
                   ECE from Geethanjali College of Engineering and Technology
@@ -92,7 +102,7 @@ const About = () => {
                 id="resume-button-2"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1E3HaGSOKRbUR2GZbrNuE-SCz8HNFA18J/view?usp=sharing"
+                    "https://drive.google.com/file/d/1DDsSU7hz86Hnt1PonFXykmgjzjFtcrmN/view?usp=sharing"
                   )
                 }
               >
