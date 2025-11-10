@@ -17,11 +17,11 @@ const Tools = () => {
       name: "VS code",
       category: "tool",
     },
-    // {
-    //   icon: "https://rangav.gallerycdn.vsassets.io/extensions/rangav/vscode-thunder-client/2.5.1/1678365054933/Microsoft.VisualStudio.Services.Icons.Default",
-    //   name: "Thunder",
-    //   category: "tool",
-    // },
+    {
+      icon: "https://raw.githubusercontent.com/mcollina/autocannon/HEAD/autocannon-banner.png",
+      name: "Autocannon",
+      category: "tool",
+    },
     {
       icon: "https://cdn-icons-png.flaticon.com/512/2175/2175377.png",
       name: "Github",
@@ -35,6 +35,11 @@ const Tools = () => {
     {
       icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJl4fp0SkQbTPU5ZxVl6AKWYuKCwM0gIhNtQ&s",
       name:'Docker',
+      category:'tool'
+    },
+      {
+      icon:"https://img.icons8.com/?size=100&id=JRnxU7ZWP4mi&format=png&color=000000",
+      name:'PgAdmin 4',
       category:'tool'
     }
   ];

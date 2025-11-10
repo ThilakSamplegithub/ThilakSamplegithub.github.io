@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "../Styles/navbar.module.css";
 import logo from "../Images/logo.png";
-import resume from "../Images/Thilak-Singh-Resume.pdf";
+// import resume
 const Navbar = () => {
   const [ismenuOpen, setIsmenuOpen] = useState(false);
   useEffect(() => {
@@ -51,8 +51,8 @@ const Navbar = () => {
           </li>
           <li>
             <a id="resume-link-1"
-              href={resume}
-              download={"Thilak-Singh-Resume.pdf"}
+              // href={resume}
+              download={""}
               className={`${styles.btn} ${styles.btn2} nav-link resume`}
             >
               <button className={styles.resume}
@@ -65,10 +65,10 @@ const Navbar = () => {
                   cursor:"pointer"
                 }}
                 id="resume-button-1"
-                onClick={() =>
-                  window.open(
-                    "https://drive.google.com/file/d/1DDsSU7hz86Hnt1PonFXykmgjzjFtcrmN/view?usp=sharing"
-                  )
+                onClick={() =>console.log('onclick opens new tab')
+                  // window.open(
+                  //   "paste google drive link"
+                  // )
                 }
               >
                 Resume

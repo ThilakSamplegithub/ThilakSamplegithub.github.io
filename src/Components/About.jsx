@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "../Styles/about.module.css";
 import user from "../Images/user2.png";
-import resume from "../Images/Thilak-Singh-Resume.pdf"
+// import resume in images folder
 const About = () => {
   const [display, setDisplay] = useState(false);
   const openTab = (booleanValue) => {
@@ -88,8 +88,8 @@ const About = () => {
             </div>
             <a
               id="resume-link-2"
-              href={resume}
-              download={"Thilak-Singh-Resume.pdf"}
+              // href={resume}
+              download={"place resume from system"}
               className={`${styles.btn} ${styles.btn2} nav-link resume`}
             >
               <button
@@ -100,10 +100,10 @@ const About = () => {
                   color: "white",
                 }}
                 id="resume-button-2"
-                onClick={() =>
-                  window.open(
-                    "https://drive.google.com/file/d/1DDsSU7hz86Hnt1PonFXykmgjzjFtcrmN/view?usp=sharing"
-                  )
+                onClick={() =>console.log('onclick window opens new tab')
+                  // window.open(
+                  //   "paste resume link"
+                  // )
                 }
               >
                 Resume

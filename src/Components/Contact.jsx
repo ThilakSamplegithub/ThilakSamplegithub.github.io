@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import styles from "../Styles/contact.module.css";
-import resume from "../Images/Thilak-Singh-Resume.pdf";
 import emailjs from "@emailjs/browser";
 const Contact = () => {
   const [messageStatus, setmessageStatus] = useState("");
@@ -84,7 +83,7 @@ const Contact = () => {
               <a
                 target="_blank"
                 id="contact-linkedin"
-                href="https://www.linkedin.com/in/thilak-thakur-6b891736b/"
+                href=""
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

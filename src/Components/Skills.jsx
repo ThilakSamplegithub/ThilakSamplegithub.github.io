@@ -13,17 +13,17 @@ const Skills = () => {
       category: "frontend",
     },
     {
-      icon: "https://somesh9870.github.io/static/media/CSS.9f33c557b92e4e2e1cc8.png",
+      icon: "https://img.icons8.com/?size=100&id=38273&format=png&color=264DE4",
       name: "CSS",
       category: "frontend",
     },
     {
-      icon: "https://somesh9870.github.io/static/media/React.20adfb35ae6a6e5817bf.png",
+      icon: "https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000",
       name: "React",
       category: "frontend",
     },
     {
-      icon: "https://somesh9870.github.io/static/media/Redux.5de70b7bc0d2556a0958.png",
+      icon: "https://img.icons8.com/?size=100&id=jD-fJzVguBmw&format=png&color=000000",
       name: "Redux",
       category: "frontend",
     },
@@ -38,12 +38,12 @@ const Skills = () => {
       category: "frontend",
     },
     {
-      icon: "https://somesh9870.github.io/static/media/Node.js.478c590a266bed215577.png",
+      icon: "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
       name: "Node JS",
       category: "backend",
     },
     {
-      icon: "https://somesh9870.github.io/static/media/Express.39a0f4c3d981885c64f8.png",
+      icon: "https://img.icons8.com/?size=100&id=2ZOaTclOqD4q&format=png&color=000000",
       name: "Express",
       category: "backend",
     },
@@ -53,13 +53,23 @@ const Skills = () => {
       category: "backend",
     },
     {
-      icon: "https://somesh9870.github.io/static/media/mongoose.998152e4bc5fdd366c2c.png",
+      icon: "https://img.icons8.com/?size=100&id=gKfcEStXI1Hm&format=png&color=000000",
       name: "Mongoose",
       category: "backend",
     },
     {
       icon: "https://www.python.org/static/community_logos/python-logo-master-v3-TM.png",
       name: "",
+      category: "backend",
+    },
+    {
+      icon: "https://img.icons8.com/?size=100&id=QSjnrUKYMnxO&format=png&color=000000",
+      name: "SQL",
+      category: "backend",
+    },
+     {
+      icon: "https://img.icons8.com/?size=100&id=38561&format=png&color=000000",
+      name: "PostgreSql",
       category: "backend",
     },
     {
